@@ -15,11 +15,9 @@ O objetivo principal é aplicar a técnica de **Eliminação Recursiva de Atribu
 O projeto está organizado da seguinte forma:
 
 Trabalho-Mineracao/
-├── data/
 ├── notebooks/
 │   ├── 1_Regressao_News_Popularity.ipynb
 │   └── 2_Classificacao_Spambase.ipynb
-├── reports/
 ├── .gitignore
 └── README.md
 
