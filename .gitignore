@@ -1,0 +1,42 @@
+# Arquivo .gitignore para o projeto de Mineração de Dados
+
+# Ambientes virtuais (Python)
+# Nunca envie seu ambiente virtual para o GitHub!
+/venv/
+/env/
+/.venv/
+/.env/
+
+# Arquivos de Cache do Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Arquivos de Cache do Jupyter Notebook
+.ipynb_checkpoints/
+
+# Arquivos de configuração do Editor/IDE
+# Ignora configurações locais do VS Code
+.vscode/
+
+# Arquivos de Sistema Operacional
+# Ignora arquivos gerados pelo macOS, Windows e Linux
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Pasta de dados
+# Geralmente não se envia os dados brutos para o repositório,
+# especialmente se forem grandes. Como estamos baixando da internet,
+# esta pasta deve ficar vazia de qualquer forma.
+/data/
+
+# Pasta de relatórios
+# Opcional: Se você gerar PDFs ou imagens, pode querer ignorá-los.
+# Se quiser versionar seu relatório final, remova a linha abaixo.
+/reports/
+
+# Arquivos de log e de ambiente
+*.log
+*.env
