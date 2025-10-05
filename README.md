@@ -18,6 +18,7 @@ Trabalho-Mineracao/
 ├── notebooks/
 │   ├── 1_Regressao_News_Popularity.ipynb
 │   └── 2_Classificacao_Spambase.ipynb
+│
 ├── .gitignore
 └── README.md
 
